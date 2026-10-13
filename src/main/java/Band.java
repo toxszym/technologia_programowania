@@ -9,6 +9,7 @@ import java.util.Objects;
 public class Band {
     private final String name;
     private final List<Musician> musicians = new ArrayList<>();
+    // private int unused;
 
     /**
      * Tworzy pusty zespół.

@@ -12,7 +12,7 @@ public final class App {
      */
     public static void main(final String[] args) {
         final Band band = new Band("Maven");
-        band.addMusician(new Musician("Ania", new Instrument("gitara", InstrumentType.STRINGS)));
+        band.addMusician(new Musician("KONFLIKT!!!!", new Instrument("gitara", InstrumentType.STRINGS)));
         band.addMusician(new Musician("Bartek", new Instrument("bas", InstrumentType.STRINGS)));
         band.addMusician(new Musician("Celina", new Instrument("pianino", InstrumentType.KEYS)));
         band.addMusician(
